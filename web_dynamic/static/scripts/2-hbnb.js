@@ -17,6 +17,7 @@ $(document).ready(function () {
     let amenityListFormatted = amenityListName.join(', ');
     $('.amenities h4').text(amenityListFormatted);
   });
+  /*
 
   $.get('http://0.0.0.0:5001/api/v1/status/', function (data, textStatus) {
     if (textStatus !== '200') {
@@ -25,4 +26,7 @@ $(document).ready(function () {
       $('#api_status').addClass('available');
     }
   });
+  */
+
+
 });
